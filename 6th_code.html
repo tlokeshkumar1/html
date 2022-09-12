@@ -1,0 +1,61 @@
+<html>
+	<head>
+		<title>registration form</title>
+		<style>
+			form{
+			text-align:center;
+			}
+		</style>
+	</head>
+	<body style=background-color:#00ced1>
+		<h1 style=text-align:center>Registration form</h1>
+		<form>
+			<label>Enter Firstname</label>
+			<input type="text" name="fname"required><br/><br/>
+			<label>Enter Lastname</label>
+			<input type="text" name="lname"required><br/><br/>
+			<label>Enter Email</label>
+			<input type="text" name="mail"required><br/><br/>
+			<label>create a username:<label>
+			<input type="text" name="uname" required><br/><br/>
+			<label>Create password</label>
+			<input type="password" name="pword" required><br/><br/>
+			<label>Confirm password</label>
+			<input type="password" name="pword2" required><br/><br/>
+			<label>Branch</label>
+			<select name="a">
+				<option value="i">IT</option>
+				<option value="c">CSE</option>
+				<option value="ec">ECE</option>
+				<option value="ee">EEE</option>
+			</select><br/><br/>
+			<label>Area</label>
+			<select name="a">
+				<optgroup label="SELECT">
+					<option value="a">HYDERABAD</option>
+					<option value="a">kARIMNAGAR</option>
+					<option value="a">KHAMMAM</option>
+					<option value="a">NALAGONDA</option>
+				</optgroup>
+			</select><br/><br/>
+			<label required>Branch</label>
+				<input type="radio" name="a" value="i">IT
+				<input type="radio" name="a" value="i">CSE
+				<input type="radio" name="a" value="i">ECE
+				<input type="radio" name="a" value="i">EEE<br/><br/>
+			<label required>KNOWN languages</label>
+				<input type="checkbox" name="py" value="i">python
+				<input type="checkbox" name="ph" value="i">php
+				<input type="checkbox" name="sq" value="i">sql
+				<input type="checkbox" name="c" value="i">c
+				<input type="checkbox" name="c++" value="i">c++
+				<input type="checkbox" name="j" value="i">java<br/><br/>
+			<label>Tell about yourself:</label><br/><br/>
+			<textarea rows="6" cols"50">
+			Enter data
+			</textarea><br/><br/>
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+		</form>
+	</body>
+</html> 
